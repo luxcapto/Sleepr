@@ -4,3 +4,7 @@ My first hand crafted Windows Phone app to help you sleep better. It started as 
 # Dependencies
 
 * [Telerik UI for Windows Phone] (http://www.telerik.com/products/windows-phone.aspx)
+
+# The Magic
+
+* Most of the action happens in the root directory: AlarmLogic.cs, TimeLogic.cs, and MainPanorama.xaml.cs
