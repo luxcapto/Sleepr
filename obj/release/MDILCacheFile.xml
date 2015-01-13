@@ -1,0 +1,38 @@
+﻿<xapCache source="C:\Users\luxcapto\Dropbox\Classes\ITM 455\Final Project\Sleepr\Sleepr\Bin\Release\Sleepr_Release_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="7/30/2014 6:07:58 PM">
+  <file source="C:\Users\luxcapto\Dropbox\Classes\ITM 455\Final Project\Sleepr\Sleepr\Bin\Release\resources.pri" archivePath="resources.pri" lastWriteTime="7/30/2014 5:46:26 PM" />
+  <file source="C:\Users\luxcapto\Dropbox\Classes\ITM 455\Final Project\Sleepr\Sleepr\obj\Release\Sleepr.dll" archivePath="Sleepr.dll" lastWriteTime="7/30/2014 6:07:47 PM" />
+  <file source="C:\Users\luxcapto\Dropbox\Classes\ITM 455\Final Project\Sleepr\Sleepr\Assets\alarm.wav" archivePath="Assets\alarm.wav" lastWriteTime="7/26/2014 10:44:52 PM" />
+  <file source="C:\Users\luxcapto\Dropbox\Classes\ITM 455\Final Project\Sleepr\Sleepr\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="5/3/2014 10:53:16 AM" />
+  <file source="C:\Users\luxcapto\Dropbox\Classes\ITM 455\Final Project\Sleepr\Sleepr\Assets\Tiles\FlipCycleTileLarge.png" archivePath="Assets\Tiles\FlipCycleTileLarge.png" lastWriteTime="5/3/2014 10:53:16 AM" />
+  <file source="C:\Users\luxcapto\Dropbox\Classes\ITM 455\Final Project\Sleepr\Sleepr\Assets\Tiles\FlipCycleTileSmall.png" archivePath="Assets\Tiles\FlipCycleTileSmall.png" lastWriteTime="7/26/2014 10:10:48 PM" />
+  <file source="C:\Users\luxcapto\Dropbox\Classes\ITM 455\Final Project\Sleepr\Sleepr\Assets\Tiles\IconicTileMediumLarge.png" archivePath="Assets\Tiles\IconicTileMediumLarge.png" lastWriteTime="5/3/2014 10:53:16 AM" />
+  <file source="C:\Users\luxcapto\Dropbox\Classes\ITM 455\Final Project\Sleepr\Sleepr\Assets\Tiles\IconicTileSmall.png" archivePath="Assets\Tiles\IconicTileSmall.png" lastWriteTime="5/3/2014 10:53:16 AM" />
+  <file source="C:\Users\luxcapto\Dropbox\Classes\ITM 455\Final Project\Sleepr\Sleepr\Assets\XBadgeLogo.png" archivePath="Assets\XBadgeLogo.png" lastWriteTime="7/29/2014 11:49:11 AM" />
+  <file source="C:\Users\luxcapto\Dropbox\Classes\ITM 455\Final Project\Sleepr\Sleepr\Assets\XLogo.png" archivePath="Assets\XLogo.png" lastWriteTime="7/29/2014 11:50:16 AM" />
+  <file source="C:\Users\luxcapto\Dropbox\Classes\ITM 455\Final Project\Sleepr\Sleepr\Assets\XSplashScreen.png" archivePath="Assets\XSplashScreen.png" lastWriteTime="7/29/2014 11:55:24 AM" />
+  <file source="C:\Users\luxcapto\Dropbox\Classes\ITM 455\Final Project\Sleepr\Sleepr\Assets\XSquareTile150x150.png" archivePath="Assets\XSquareTile150x150.png" lastWriteTime="7/29/2014 11:57:26 AM" />
+  <file source="C:\Users\luxcapto\Dropbox\Classes\ITM 455\Final Project\Sleepr\Sleepr\Assets\XSquareTile71x71.png" archivePath="Assets\XSquareTile71x71.png" lastWriteTime="7/29/2014 11:56:56 AM" />
+  <file source="C:\Users\luxcapto\Dropbox\Classes\ITM 455\Final Project\Sleepr\Sleepr\Assets\XStoreLogo.png" archivePath="Assets\XStoreLogo.png" lastWriteTime="7/29/2014 11:58:32 AM" />
+  <file source="C:\Users\luxcapto\Dropbox\Classes\ITM 455\Final Project\Sleepr\Sleepr\Assets\XWideLogo.png" archivePath="Assets\XWideLogo.png" lastWriteTime="7/29/2014 12:00:37 PM" />
+  <file source="C:\Users\luxcapto\Dropbox\Classes\ITM 455\Final Project\Sleepr\Sleepr\Images\DateTimePickerCancel.png" archivePath="Images\DateTimePickerCancel.png" lastWriteTime="6/26/2014 7:55:20 PM" />
+  <file source="C:\Users\luxcapto\Dropbox\Classes\ITM 455\Final Project\Sleepr\Sleepr\Images\DateTimePickerOK.png" archivePath="Images\DateTimePickerOK.png" lastWriteTime="6/26/2014 7:55:02 PM" />
+  <file source="C:\Users\luxcapto\Dropbox\Classes\ITM 455\Final Project\Sleepr\Sleepr\Bin\Release\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="7/29/2014 1:08:01 PM" />
+  <file source="C:\Users\luxcapto\Dropbox\Classes\ITM 455\Final Project\Sleepr\Sleepr\Bin\Release\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="7/26/2014 9:54:36 PM" />
+  <file source="C:\Users\luxcapto\Dropbox\Classes\ITM 455\Final Project\Sleepr\Sleepr\Bin\Release\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="7/26/2014 10:19:48 PM" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.1\Libraries\Microsoft.Phone.Controls.dll" archivePath="Microsoft.Phone.Controls.dll" lastWriteTime="4/18/2014 4:36:48 AM" />
+  <file source="C:\Users\luxcapto\Dropbox\Classes\ITM 455\Final Project\Sleepr\packages\WPtoolkit.4.2013.08.16\lib\wp8\Microsoft.Phone.Controls.Toolkit.dll" archivePath="Microsoft.Phone.Controls.Toolkit.dll" lastWriteTime="5/4/2014 11:21:35 AM" />
+  <file source="C:\Program Files (x86)\Telerik\UI for Windows Phone 8 Q1 2014\Binaries\WindowsPhone\Telerik.Windows.Controls.Data.dll" archivePath="Telerik.Windows.Controls.Data.dll" lastWriteTime="2/26/2014 10:14:08 AM" />
+  <file source="C:\Program Files (x86)\Telerik\UI for Windows Phone 8 Q1 2014\Binaries\WindowsPhone\Telerik.Windows.Controls.Input.dll" archivePath="Telerik.Windows.Controls.Input.dll" lastWriteTime="2/26/2014 10:13:54 AM" />
+  <file source="C:\Program Files (x86)\Telerik\UI for Windows Phone 8 Q1 2014\Binaries\WindowsPhone\Telerik.Windows.Controls.Primitives.dll" archivePath="Telerik.Windows.Controls.Primitives.dll" lastWriteTime="2/26/2014 10:13:46 AM" />
+  <file source="C:\Program Files (x86)\Telerik\UI for Windows Phone 8 Q1 2014\Binaries\WindowsPhone\Telerik.Windows.Core.dll" archivePath="Telerik.Windows.Core.dll" lastWriteTime="2/26/2014 10:13:42 AM" />
+  <file source="C:\Program Files (x86)\Telerik\UI for Windows Phone 8 Q1 2014\Binaries\WindowsPhone\Telerik.Windows.Data.dll" archivePath="Telerik.Windows.Data.dll" lastWriteTime="2/26/2014 10:14:06 AM" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Expression\Blend\Windows Phone\v8.0\Libraries\System.Windows.Interactivity.dll" archivePath="System.Windows.Interactivity.dll" lastWriteTime="9/25/2012 2:41:02 AM" />
+  <file source="C:\Program Files (x86)\Telerik\UI for Windows Phone 8 Q1 2014\Binaries\WindowsPhone\Telerik.Windows.Controls.Data.xml" archivePath="Telerik.Windows.Controls.Data.xml" lastWriteTime="2/26/2014 10:14:08 AM" />
+  <file source="C:\Program Files (x86)\Telerik\UI for Windows Phone 8 Q1 2014\Binaries\WindowsPhone\Telerik.Windows.Controls.Input.xml" archivePath="Telerik.Windows.Controls.Input.xml" lastWriteTime="2/26/2014 10:13:54 AM" />
+  <file source="C:\Program Files (x86)\Telerik\UI for Windows Phone 8 Q1 2014\Binaries\WindowsPhone\Telerik.Windows.Controls.Primitives.xml" archivePath="Telerik.Windows.Controls.Primitives.xml" lastWriteTime="2/26/2014 10:13:46 AM" />
+  <file source="C:\Program Files (x86)\Telerik\UI for Windows Phone 8 Q1 2014\Binaries\WindowsPhone\Telerik.Windows.Core.xml" archivePath="Telerik.Windows.Core.xml" lastWriteTime="2/26/2014 10:13:42 AM" />
+  <file source="C:\Program Files (x86)\Telerik\UI for Windows Phone 8 Q1 2014\Binaries\WindowsPhone\Telerik.Windows.Data.xml" archivePath="Telerik.Windows.Data.xml" lastWriteTime="2/26/2014 10:14:06 AM" />
+  <file source="C:\Users\luxcapto\Dropbox\Classes\ITM 455\Final Project\Sleepr\Sleepr\Bin\Release\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="7/29/2014 1:08:01 PM" />
+  <file source="C:\Users\luxcapto\Dropbox\Classes\ITM 455\Final Project\Sleepr\Sleepr\obj\Release\MDILProjectFiles.xml" archivePath="MDILProjectFiles.xml" lastWriteTime="7/30/2014 6:07:51 PM" />
+  <file source="C:\Users\luxcapto\Dropbox\Classes\ITM 455\Final Project\Sleepr\Sleepr\Bin\Release\AppxManifest.xml" archivePath="AppxManifest.xml" lastWriteTime="7/30/2014 5:46:26 PM" />
+</xapCache>

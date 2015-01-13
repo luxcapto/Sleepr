@@ -1,0 +1,52 @@
+﻿<phone:PhoneApplicationPage
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:telerikInput="clr-namespace:Telerik.Windows.Controls;assembly=Telerik.Windows.Controls.Input"
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    xmlns:telerikPrimitives="clr-namespace:Telerik.Windows.Controls;assembly=Telerik.Windows.Controls.Primitives"
+    x:Class="Sleepr.MainPanorama"
+    mc:Ignorable="d"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot contains the root grid where all other page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="{StaticResource PhoneAccentBrush}">
+        <phone:Panorama x:Name="panoramaView" Title="sleepr" 
+                                       Loaded="Panorama_Loaded">
+
+            <!--Panorama item one-->
+            <phone:PanoramaItem Header="options">
+                <Grid>
+                    <telerikInput:RadListPicker StateChanged="timeOptionPicker_StateChanged" x:Name="timeOptionPicker" Header="Select option" VerticalAlignment="Top" Margin="12,-15,12,0"/>
+                    <telerikInput:RadTimePicker Step="1:05:00" ValueChanged="timePicker_ValueChanged" x:Name="timePicker" HorizontalAlignment="Left" Header="Select time" Height="112" VerticalAlignment="Top" Margin="0,76,0,0" Width="420" EmptyContent="" Loaded="timePicker_Loaded" />
+                    <telerikInput:RadListPicker SelectionChanged="minutePicker_SelectionChanged" x:Name="minutePicker" Header="Select minutes to fall asleep" VerticalAlignment="Top" Margin="12,212,12,0" InlineModeThreshold="3"/>
+                    <Button x:Name="deleteButton" Click="deleteButton_Click" Content="Delete Alarm" HorizontalAlignment="Left" Margin="235,379,0,0" VerticalAlignment="Top" FontFamily="Portable User Interface"/>
+                    <TextBlock x:Name="helperText" HorizontalAlignment="Left" Margin="12,311,0,0" TextWrapping="Wrap" Text="..." VerticalAlignment="Top" Height="80" Width="408"/>
+                    <TextBlock x:Name="alarmStatus" Text="" HorizontalAlignment="Left" Margin="10,404,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="28" Width="225"/>
+                </Grid>
+            </phone:PanoramaItem>
+
+            <!--Panorama item two-->
+            <phone:PanoramaItem  Header="set alarm">
+                <Grid>
+
+                    <telerikPrimitives:RadDataBoundListBox x:Name="radDataBoundListBox" Width="383" FontSize="48" EmptyContent="" Tap="radDataBoundListBox_Tap" />
+
+                    <TextBlock x:Name="alarmHelperText" HorizontalAlignment="Left" Margin="19,-40,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="400"/>
+                </Grid>
+
+
+
+
+            </phone:PanoramaItem>
+        </phone:Panorama>
+    </Grid>
+
+</phone:PhoneApplicationPage>

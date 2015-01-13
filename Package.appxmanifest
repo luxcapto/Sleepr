@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest" xmlns:m3="http://schemas.microsoft.com/appx/2014/manifest" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest">
+  <Identity Name="28594ThirdDimmension.Sleepr" Publisher="CN=4860E356-9F10-4775-B1F3-588B3CE83B99" Version="1.0.0.0" />
+  <mp:PhoneIdentity PhoneProductId="228de52e-b0d6-45f6-8416-809e97bdf32a" PhonePublisherId="e085d50f-4120-426e-acac-7e6e45a7d0b1" />
+  <Properties>
+    <DisplayName>Sleepr</DisplayName>
+    <PublisherDisplayName>Third Dimension Dev</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.3.1</OSMinVersion>
+    <OSMaxVersionTested>6.3.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="x228de52eyb0d6y45f6y8416y809e97bdf32ax" Executable="AGHost.exe" EntryPoint="MainPanorama.xaml">
+      <m3:VisualElements DisplayName="Sleepr" Square150x150Logo="Assets\XSquareTile150x150.png" Square44x44Logo="Assets\XLogo.png" Description="Sleepr is based on the idea that people sleep in 90 minutes cycles and that it is best to wake up at the end of a sleep &quot;cycle.&quot; Sleepr makes it easy for you to figure out the most optimal time for you to go to sleep at or wake up with alarm functionality." ForegroundText="light" BackgroundColor="#464646">
+        <m3:DefaultTile Square71x71Logo="Assets\XSquareTile71x71.png">
+        </m3:DefaultTile>
+        <m3:SplashScreen Image="Assets\XSplashscreen.png" />
+      </m3:VisualElements>
+      <Extensions>
+        <Extension Category="windows.backgroundTasks" EntryPoint="AgHost.BackgroundTask">
+          <BackgroundTasks>
+            <Task Type="systemEvent" />
+            <Task Type="timer" />
+          </BackgroundTasks>
+        </Extension>
+      </Extensions>
+    </Application>
+  </Applications>
+  <Extensions>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>AgHostSvcs.dll</Path>
+        <ActivatableClass ActivatableClassId="AgHost.BackgroundTask" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+  </Extensions>
+</Package>
